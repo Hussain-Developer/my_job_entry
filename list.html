@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="list.css">
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top"
+        style="transition: 0.2s; box-shadow: 1px 1px 10px 2px rgb(226, 226, 226)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">ApplyJob</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color: #00B074 !important;">Nav Bar
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <hr style="margin-top: -1px;">
+                </hr>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" style="color: var(--dark);
+                    font-weight: 500;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                JOBS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="list.html">JOB LIST</a></li>
+                                <li><a class="dropdown-item" href="detail.html">JOB DETAILS</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="catagory.html">Job Catagory</a></li>
+                                <li><a class="dropdown-item" href="test.html">Testimonial</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="error.html">404</a></li>
+                        </li>
+                    </ul>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+        <div class="slide">
+            <img src="pic/carousel-1.jpg" style="width: 100%;">
+            <div class="text" style="margin-top: -350px;">
+                <h1>Job List</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb text-uppercase">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="page.html">Pages</a></li>
+                        <li class="breadcrumb-item text-white active" aria-current="page">List</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <div class="job-list">
+            <h1>Job Listing</h1>
+            <div class="job" style="padding: 1rem !important;">
+                <div class="job-1" style="width: 920px;">
+                    <img src="pic/com-logo-1.jpg">
+                    <div class="text">
+                        <div class="right">
+                            <div class="heart">
+                                <a href="" class="heart" style="color: #00B074 !important;">
+                                    <i class='far fa-heart'></i>
+                                </a>
+                            </div>
+                            <div class="btn"
+                                style="padding: 5px; padding-top: 5px; height: 10px; width: 110px; padding-bottom: 30px;">
+                                <a href="">Apply Now</a>
+                            </div>
+                            <div class="time" style="float: right; margin-right: -160px; margin-top: 40px;">
+                                <i class='fas fa-calendar-alt' style=" color: #00B074;"></i>
+                                <p style="margin-top: -6px; margin-left: 20px;">Date Line: 01 Jan, 2045</p>
+                            </div>
+                        </div>
+                        <div class="p-left" style="margin-top: -130px;">
+                            <h5 style="padding-bottom: 10px;">Software Engineer</h5>
+                            <span><i class='fas fa-map-marker-alt' style="padding-right: 5px; color: #00b074;"></i>New
+                                York,USA</span>
+                            <span><i class='far fa-clock' style="color: #00b074; padding-right: 5px;"></i>Full Time</span>
+                            <span><i class='far fa-money-bill-alt'
+                                    style='font-size:20px; color: #00b074; padding-right: 5px;'></i>$123-$456</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="job-1" style="width: 920px;">
+                    <img src="pic/com-logo-2.jpg">
+                    <div class="text">
+                        <div class="right">
+                            <div class="heart">
+                                <a href="" class="heart" style="color: #00B074 !important;">
+                                    <i class='far fa-heart'></i>
+                                </a>
+                            </div>
+                            <div class="btn"
+                                style="padding: 5px; padding-top: 5px; height: 10px; width: 110px; padding-bottom: 30px;">
+                                <a href="">Apply Now</a>
+                            </div>
+                            <div class="time" style="float: right; margin-right: -160px; margin-top: 40px;">
+                                <i class='fas fa-calendar-alt' style=" color: #00B074;"></i>
+                                <p style="margin-top: -6px; margin-left: 20px;">Date Line: 01 Jan, 2045</p>
+                            </div>
+                        </div>
+                        <div class="p-left" style="margin-top: -130px;">
+                            <h5 style="padding-bottom: 10px;">Marketing Manager</h5>
+                            <span><i class='fas fa-map-marker-alt' style="padding-right: 5px; color: #00b074;"></i>New
+                                York,USA</span>
+                            <span><i class='far fa-clock' style="color: #00b074; padding-right: 5px;"></i>Full Time</span>
+                            <span><i class='far fa-money-bill-alt'
+                                    style='font-size:20px; color: #00b074; padding-right: 5px;'></i>$123-$456</span>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="job-1" style="width: 920px;">
+                    <img src="pic/com-logo-3.jpg">
+                    <div class="text">
+                        <div class="right">
+                            <div class="heart">
+                                <a href="" class="heart" style="color: #00B074 !important;">
+                                    <i class='far fa-heart'></i>
+                                </a>
+                            </div>
+                            <div class="btn"
+                                style="padding: 5px; padding-top: 5px; height: 10px; width: 110px; padding-bottom: 30px;">
+                                <a href="">Apply Now</a>
+                            </div>
+                            <div class="time" style="float: right; margin-right: -160px; margin-top: 40px;">
+                                <i class='fas fa-calendar-alt' style=" color: #00B074;"></i>
+                                <p style="margin-top: -6px; margin-left: 20px;">Date Line: 01 Jan, 2045</p>
+                            </div>
+                        </div>
+                        <div class="p-left" style="margin-top: -130px;">
+                            <h5 style="padding-bottom: 10px;">Product Designer</h5>
+                            <span><i class='fas fa-map-marker-alt' style="padding-right: 5px; color: #00b074;"></i>New
+                                York,USA</span>
+                            <span><i class='far fa-clock' style="color: #00b074; padding-right: 5px;"></i>Full Time</span>
+                            <span><i class='far fa-money-bill-alt'
+                                    style='font-size:20px; color: #00b074; padding-right: 5px;'></i>$123-$456</span>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="job-1" style="width: 920px;">
+                    <img src="pic/com-logo-4.jpg">
+                    <div class="text">
+                        <div class="right">
+                            <div class="heart">
+                                <a href="" class="heart" style="color: #00B074 !important;">
+                                    <i class='far fa-heart'></i>
+                                </a>
+                            </div>
+                            <div class="btn"
+                                style="padding: 5px; padding-top: 5px; height: 10px; width: 110px; padding-bottom: 30px;">
+                                <a href="">Apply Now</a>
+                            </div>
+                            <div class="time" style="float: right; margin-right: -160px; margin-top: 40px;">
+                                <i class='fas fa-calendar-alt' style=" color: #00B074;"></i>
+                                <p style="margin-top: -6px; margin-left: 20px;">Date Line: 01 Jan, 2045</p>
+                            </div>
+                        </div>
+                        <div class="p-left" style="margin-top: -130px;">
+                            <h5 style="padding-bottom: 10px;">Creative Director</h5>
+                            <span><i class='fas fa-map-marker-alt' style="padding-right: 5px; color: #00b074;"></i>New
+                                York,USA</span>
+                            <span><i class='far fa-clock' style="color: #00b074; padding-right: 5px;"></i>Full Time</span>
+                            <span><i class='far fa-money-bill-alt'
+                                    style='font-size:20px; color: #00b074; padding-right: 5px;'></i>$123-$456</span>
+                        </div>
+                    </div>
+                    <div class="right"></div>
+                </div>
+                <div class="job-1" style="width: 920px;">
+                    <img src="pic/com-logo-5.jpg">
+                    <div class="text">
+                        <div class="right">
+                            <div class="heart">
+                                <a href="" class="heart" style="color: #00B074 !important;">
+                                    <i class='far fa-heart'></i>
+                                </a>
+                            </div>
+                            <div class="btn"
+                                style="padding: 5px; padding-top: 5px; height: 10px; width: 110px; padding-bottom: 30px;">
+                                <a href="">Apply Now</a>
+                            </div>
+                            <div class="time" style="float: right; margin-right: -160px; margin-top: 40px;">
+                                <i class='fas fa-calendar-alt' style=" color: #00B074;"></i>
+                                <p style="margin-top: -6px; margin-left: 20px;">Date Line: 01 Jan, 2045</p>
+                            </div>
+                        </div>
+                        <div class="p-left" style="margin-top: -130px;">
+                            <h5 style="padding-bottom: 10px;">Wordpress Developer</h5>
+                            <span><i class='fas fa-map-marker-alt' style="padding-right: 5px; color: #00b074;"></i>New
+                                York,USA</span>
+                            <span><i class='far fa-clock' style="color: #00b074; padding-right: 5px;"></i>Full Time</span>
+                            <span><i class='far fa-money-bill-alt'
+                                    style='font-size:20px; color: #00b074; padding-right: 5px;'></i> $123-$456</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="btn-2">
+                    <a href="" style="color: #FFFFFF; padding-top: 1rem !important;
+                    padding-bottom: 1rem !important;padding-right: 3rem !important;
+                    padding-left: 3rem !important; margin-left: 350px;">Browes More Jobs</a>
+                </div>
+            </div>
+        </div>
+        <div class="end">
+            <div class="Company">
+                <div class="nav-1">
+                    <h5>Campany</h5>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        About Us
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;'></i>
+                        Contact Us
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Our Services
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Privacy Policy
+    
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Terms & Condition
+    
+                    </a>
+                </div>
+            </div>
+            <div class="Quick-Links" style="margin-right: 420px; margin-top: 50px;">
+                <div class="nav-1">
+                    <h5>Quick links</h5>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        About Us
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Contact Us
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Our Services
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Privacy Policy
+    
+                    </a>
+                    <a href="index.html">
+                        <i class='fas fa-angle-right' style='font-size:13px;     color: #979797;
+                        '></i>
+                        Terms & Condition
+    
+                    </a>
+                </div>
+            </div>
+            <div class="Contact">
+                <h5>Contact Us</h5>
+                <p><i class='fas fa-map-marker-alt' style='font-size:15px; padding-right:10px '></i>123 Street, New York, USA</p>
+                <p><i class='fas fa-phone-alt' style='font-size:15px; padding-right:10px'></i>+012 345 67890</p>
+                <p><i class='fas fa-envelope' style='font-size:15px; padding-right:10px'></i>info@example.com</p>
+                <div class="logo">
+                    <a href=""><i class='fab fa-twitter' style='padding: 7px;'></i></a>
+                    <a href=""><i class='fab fa-facebook-f'  style='padding: 7px 10px 7px 10px;'></i></a>
+                    <a href=""><i class='fab fa-youtube' style='padding: 7px;'></i></a>
+                    <a href=""><i class='fab fa-linkedin-in' style='padding: 7px 10px 7px 10px;'></i></a>
+                </div>
+            </div>
+            <div class="site">
+                <hr>
+                <div class="left">
+                    <p>©<a href="index.html">Your Site Name</a>, All Right Reserved. Designed By <a href="https://htmlcodex.com/">HTML Codex</a></p>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                            |
+                            <a href="index.html">Cookies</a>
+                            |
+                            <a href="index.html">Help</a>
+                            |
+                            <a href="index.html">FAQS</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

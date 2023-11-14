@@ -58,8 +58,9 @@ nav .navbar-nav .post:hover {
 .search {
   background-color: #00b074;
   display: inline-block;
-  padding: 35px;
   width: 100%;
+  text-align: center;
+  height: auto;
 }
 
 .search .input {
@@ -68,16 +69,9 @@ nav .navbar-nav .post:hover {
   color: #666565;
 }
 .search input {
-  height: 45px;
-  margin: 30px;
+  margin-right: 1px;
+  width: 247px;
 }
-@media (max-width: 1500px) {
-  .search input {
-    min-width: 300px;
-    margin-right: 2px;
-  }
-}
-
 .search #Category {
   width: 247px;
   padding: 10px;
@@ -85,25 +79,13 @@ nav .navbar-nav .post:hover {
   color: #666565;
   margin-top: 6px;
 }
-@media (max-width: 1500px) {
-  .search #catagory select {
-    min-width: 300px;
-    margin-left: 2px;
-  }
-}
-
 .search #Location {
   width: 247px;
   padding: 10px;
   font-size: 1rem;
   color: #666565;
   margin-top: 6px;
-}
-@media (max-width: 1500px) {
-  .search select {
-    min-width: 300px;
-    margin-left: 20px;
-  }
+  margin-right: 5px;
 }
 .search .input button {
   height: 40px;
@@ -114,12 +96,7 @@ nav .navbar-nav .post:hover {
   margin-top: 15px;
   margin-left: 2px;
 }
-@media (max-width: 1500px) {
-  .search .input button {
-    min-width: 200px;
-    margin-left: 20px;
-  }
-}
+
 .head {
   margin-top: 150px;
   margin-bottom: 50px;
@@ -134,14 +111,7 @@ nav .navbar-nav .post:hover {
   display: block;
   width: 214px;
 }
-@media (max-width: 1500px) {
-  .row .col {
-    margin-right: 30px;
-    display: block;
-    width: 300px;
-    height: 250px;
-  }
-}
+
 .row .col .card {
   width: 216px;
   height: 281px;
@@ -149,16 +119,6 @@ nav .navbar-nav .post:hover {
   box-shadow: 0 0 45px rgba(0, 0, 0, 0.123);
   border: 1px solid transparent;
   transition: 0.9s;
-}
-@media (max-width: 1500px) {
-  .row .col .card {
-    width: 300px;
-    height: 270px;
-    margin-left: 25px;
-    box-shadow: 0 0 45px rgba(0, 0, 0, 0.123);
-    border: 1px solid transparent;
-    transition: 0.9s;
-  }
 }
 
 .row .col .card:hover {
@@ -189,34 +149,20 @@ nav .navbar-nav .post:hover {
   text-decoration: none;
   height: 181px;
   padding: 20px;
-  padding-top: -20px;
-  line-height: 1.8;
+  padding-top: -60px;
 }
 
 .row .col .card a i {
   font-size: 48px;
   color: #00b074;
-  line-height: 1.4;
 }
-@media (max-width: 1500px) {
-  .row .col .card a i {
-    font-size: 48px;
-    color: #00b074;
-    line-height: 2.5;
-  }
-}
+
 .row .col .card a h5 {
   color: #2b3940;
   font-weight: 700;
   font-size: 16px;
 }
-@media (max-width: 1500px) {
-  .row .col .card a h5 {
-    color: #2b3940;
-    font-weight: 700;
-    font-size: 16px;
-  }
-}
+
 .row .col .card a p {
   color: #00c986;
   font-size: 16px;

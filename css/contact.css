@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666565;
+    background-color: #000;
+    width: 100%;
+}
+
+nav .container-fluid .navbar-brand {
+    color: #00b074;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+nav #navbarSupportedContent {
+    margin-left: 130px;
+    margin-top: 10px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+    nav {
+        width: 375px;
+    }
+}
+
+nav #navbarSupportedContent .nav-link {
+    color: #000;
+    transition: 0.5s;
+}
+
+nav #navbarSupportedContent .nav-link:hover {
+    color: #00b074;
+}
+
+nav .navbar-nav {
+    width: 900px;
+}
+
+nav .navbar-nav .nav-item {
+    padding: 10px;
+}
+
+nav .navbar-nav .post {
+    background-color: #00b074;
+    text-align: center;
+    width: 210px;
+    height: 75px;
+    margin-top: -10px;
+    padding-top: 23px;
+    transition: 0.7s;
+}
+
+nav .navbar-nav .post a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .navbar-nav .post:hover {
+    background-color: #04c081;
+}
+
+.slide .text h1 {
+    font-size: 50px;
+    color: #fff;
+    font-weight: 700;
+    padding-left: 50px;
+}
+
+@media (max-width:600px) {
+    .slide .text img {
+        min-width: 200px;
+        min-height: 10px;
+    }
+}
+
+.slide .text nav {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.slide .text nav a {
+    text-decoration: none;
+    color: #00b074;
+    transition: 0.5s;
+    font-weight: 600;
+}
+
+.slide .text nav a:hover {
+    color: #00ffaa;
+    transition: 0.5s;
+}

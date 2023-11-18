@@ -1,11 +1,15 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
 body {
     margin: 0px;
-    font-family: "Heebo", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1rem;
     font-weight: 400;
     color: #666565;
     background-color: #000;
     width: 100%;
+    transition: 0.9s;
 }
 
 nav .container-fluid .navbar-brand {
@@ -14,6 +18,7 @@ nav .container-fluid .navbar-brand {
     font-weight: 700;
     margin-left: 20px;
     overflow: hidden;
+    transition: 0.9s;
 }
 
 nav #navbarSupportedContent {
@@ -94,4 +99,249 @@ nav .navbar-nav .post:hover {
 .slide .text nav a:hover {
     color: #00ffaa;
     transition: 0.5s;
+}
+
+.contact {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+    display: block;
+}
+
+.contact .head {
+    margin-top: 250px;
+    text-align: center;
+    margin-bottom: 3rem !important;
+}
+
+.contact .head h1{
+    font-size: calc(1.375rem + 1.5vw);
+    font-family: "Inter",sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #2B3940;
+}
+.contact .example{
+    display: flex;
+}
+.contact .example .in{
+    padding: 10px;
+    padding-left: 20px;
+    background-color: #EFFDF5 !important;
+    margin: 20px;
+    width: 283px;
+    overflow: hidden;
+}
+.contact .example .card{
+    border: none;
+    background-color: #EFFDF5 !important;
+    padding-top: 15px;
+}
+.contact .example .card i{
+    border: 1px solid lightgray;
+    border-radius: 2px;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding-top: 12px;
+    color: #04c081;
+    background-color: #fff;
+    margin-right: 8px;
+
+}
+
+.all-in{
+    height: auto;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+.map-in{
+    width: 100%;
+    height: auto;
+    flex: 50%;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+
+.map-in iframe{
+    width: 100%;
+    height: 100%;
+}
+.form-in{
+    width: 100%;
+    height: auto;
+    flex: 40%;
+}
+
+.form-in a{
+    text-decoration: none;
+    color: #00B074;
+    font-weight: 600;
+    transition: 0.9s;
+}
+.form-in a:hover{
+    color: #00865a;
+    transition: 0.9s;
+}
+.form-in h1{
+    margin-bottom: 10px;
+}
+
+.form-in-txt{
+    width: 100%;
+    height: 40px;
+    color: #666;
+    border: 1px solid #bcbcbc;
+    border-radius: 50px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+.form-in-txt::placeholder{
+    color: #aaa;
+}
+.form-in-txtarea{
+    width: 100%;
+    height: 130px;
+    color: #666;
+    border: 1px solid #bcbcbc;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 20px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.form-in-txtarea::placeholder{
+    color: #aaa;
+}
+
+.form-in-btn{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #04c081;
+    color: #fff;
+    font-weight: 600;
+    transition: 0.9s;
+}
+
+.form-in-btn:hover{
+    background-color: #00b074;
+    transition: 0.9s;
+    
+}
+
+.end{
+    margin-top: 60px;
+    background-color: #2B3940;
+    overflow: hidden;
+}
+.end .Company{
+    float: left;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+
+.end .Company a{
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #979797;
+    transition: 0.6s;
+}
+
+.end .Company a:hover{
+    color: #00B074;
+    transition: 0.6s;
+}
+.end .Quick-Links a{
+    display: block;
+    padding-top: 10px;
+    text-decoration: none;
+    color: #979797;
+    transition: 0.6s;
+}
+.end .Quick-Links a:hover{
+    color: #00B074;
+    transition: 0.6s;
+}
+.end .Quick-Links{
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-weight: 700;
+}
+.end h5{
+    color: #fff;
+    font-size: 40px;
+}
+.end .Contact{
+    float: right;
+    margin-top: -225px;
+    margin-right: 60px;
+}
+.end .Contact p{
+    color: #999898;
+    font-weight: 600;
+}
+.end .Contact a{
+    margin: 2px;
+    transition: 0.7s;
+}
+.end .Contact .logo a i{
+    font-size:20px;
+    color: white; 
+    border: 1px solid white;
+    background-color: #2B3940;
+    transition: 0.7s;
+    border-radius: 3px;
+}
+.end .Contact .logo i:hover{
+    color: #00B074;
+    background-color: #fff;
+    transition: 0.7s;
+}
+.end .site{
+    margin-top: 300px;
+    padding: 30px;
+}
+.end .site hr{
+    color: #999898;
+}
+.end .site .left{
+    float: left;
+}
+.end .site .left a{
+    color: #fff;
+}
+
+
+.end .site .left p{
+    color: #999898;
+}
+.end .site .right{
+    float: right;
+    color: #666565;
+}
+.end .site .right a{
+    color: #fff;
+    padding-right: 10px;
+    text-decoration: none;
+}
+.end .site .right ul li{
+    display: inline-block;
 }

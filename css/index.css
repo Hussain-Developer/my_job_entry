@@ -7,18 +7,7 @@ body {
   background-color: #000;
   width: 100%;
 }
-@media (max-width:500px) {
-  body {
-    margin: 0;
-    font-family: "Heebo", sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    color: #666565;
-    background-color: #000;
-    width: auto;
-  }
-  
-}
+
 nav .container-fluid .navbar-brand {
   color: #00b074;
   font-size: 35px;
@@ -224,10 +213,17 @@ nav .navbar-nav .post:hover {
   width: 200px;
 }
 
+@media (max-width:500px) {
+  .ABOUT .left .img-start .rit{
+    width: 150px !important;
+    margin-left: 176px !important;
+    margin-top: -160px !important;
+  }
+}
 @media (max-width: 600px) {
   .ABOUT .left {
     float: left;
-    width: 40%;
+    width: 50%;
     background-image: -webkit-repeating-radial-gradient(center center,
         rgba(0, 0, 0, 0.5),
         rgba(0, 0, 0, 0.2) 1px,
@@ -261,21 +257,28 @@ nav .navbar-nav .post:hover {
   margin-top: -25px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
   .ABOUT .left .img-end img {
-    margin-left: 10px;
-    min-width: 100px;
-    margin-top: -25px;
-    overflow: hidden;
+    margin-left: 25px;
+    min-width: 70px !important;
+    margin-top: -25px !important;
+    width: 150px !important;
   }
 }
 
 .ABOUT .left .img-last img {
   width: 250px;
-  margin-left: 230px;
-  margin-top: -200px;
+  margin-left: 175px !important;
+  margin-top: -150px !important;
 }
-
+@media (max-width:500px) {
+  .ABOUT .left .img-last img {
+    width: 250px;
+    margin-left: 140px;
+    margin-top: -125px;
+  }
+  
+}
 .ABOUT .right {
   float: right;
   margin: 22px;
@@ -317,12 +320,20 @@ nav .navbar-nav .post:hover {
 }
 
 .job-list {
-  margin: -5px;
+  margin: 5px;
   margin-top: 600px;
   margin-bottom: 3rem;
   font-size: calc(1.375rem + 1.5vw);
 }
-
+@media (max-width:500px) {
+  .job-list {
+    margin: 0;
+    margin-top: 600px;
+    margin-bottom: 3rem;
+    font-size: calc(1.375rem + 1.5vw);
+  }
+  
+}
 .job-list h1 {
   text-align: center;
   margin-top: 650px;
@@ -380,7 +391,11 @@ nav .navbar-nav .post:hover {
   padding-left: 100px;
   line-height: 0.1;
 }
-
+@media (max-width:500px) {
+  .job .job-1 .text .p-left{
+    margin-top: -90px !important;
+  }
+}
 .job .job-1 .text h5 {
   font-size: 20px;
   width: 300px;
@@ -390,14 +405,20 @@ nav .navbar-nav .post:hover {
   font-size: 16px;
   display: inline-block;
   padding-right: 10px;
+  padding-top: 7px;
 }
 @media (max-width:500px) {
   .job .job-1 .text .right {
-    margin-top: 20px !important;
+    margin-top: 40px !important;
+    margin-right: 14px !important;
   }
   
 }
 
+
+.job .job-1 .text .right {
+  margin-top: -55px;
+}
 .job .job-1 .heart a {
   float: right;
   margin-top: -20px;
@@ -466,6 +487,15 @@ nav .navbar-nav .post:hover {
   font-size: 14px;
 }
 
+@media (max-width:500px) {
+  .job-1 .text .right .time {
+    font-size: 14px;
+    margin-right: 25px !important;
+    margin-top: 20px !important;
+  }
+  
+}
+
 .our-client {
   margin: 40px;
   margin-top: 50px;
@@ -507,7 +537,7 @@ nav .navbar-nav .post:hover {
     border: 1px solid transparent;
     border-radius: 2px;
     box-shadow: 0 0 45px rgba(0, 0, 0, 0.123);
-    width: 200px;
+    width: 300px;
     margin: 30px;
     display: inline-block;
     margin-top: 50px;
@@ -550,6 +580,8 @@ nav .navbar-nav .post:hover {
 .end {
   background-color: #2b3940;
   overflow: hidden;
+  margin: 0;
+  width: 100%;
 }
 
 @media (max-width:500px) {
@@ -558,6 +590,7 @@ nav .navbar-nav .post:hover {
     overflow: hidden;
     width: 450px;
     text-align: center;
+    margin: 0;
   }
 
 }

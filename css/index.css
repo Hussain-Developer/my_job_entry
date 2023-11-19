@@ -530,8 +530,8 @@ nav .navbar-nav .post:hover {
   padding: 15px;
   transition: 0.6s;
   background-color: #effdf5;
-}
-
+ }
+ /* <-----i dont know-----> */
 @media (max-width:500px) {
   .our-client .card-1 {
     border: 1px solid transparent;

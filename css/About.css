@@ -57,6 +57,9 @@ nav .navbar-nav .post a{
 nav .navbar-nav .post:hover{
     background-color: #04c081;
 }
+.slide .text{
+    margin-top: -350px;
+}
 .slide .text h1{
     font-size: 50px;
     color: #fff;
@@ -89,6 +92,13 @@ nav .navbar-nav .post:hover{
     margin: 30px;
     overflow: hidden;
 }
+@media (max-width:500px) {
+    .ABOUT{
+        margin: 20px;
+        overflow: hidden;
+    }
+    
+}
 .ABOUT .left{
     float: left;
     width: 50%;
@@ -96,15 +106,39 @@ nav .navbar-nav .post:hover{
     background-size: 5px 5px;
 }
 .ABOUT .left .img-start img{
-    width: 200px;
+    width: 230px;
+}
+.ABOUT .left .img-start .second{
+    margin-top: -220px; 
+    margin-left: 230px;
+}
+@media (max-width:500px) {
+    .ABOUT .left .img-start .second{
+        MAX-width: 160px !important; 
+        margin-left: 190px !important;
+        margin-bottom: -37px !important;
+    }
+    
+}
+@media (max-width:500px) {
+    .ABOUT .left .img-start .suru{
+        min-width: 190px !important;
+    }
+    
 }
 @media (max-width: 600px) {
     .ABOUT .left{
-        float: left;
-        width: 40%;
-        background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2) 1px, transparent 0px, transparent 110%);
-        background-size: 6px 5px;
+        width: 50%;
+        background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+        background-size: 5px 5px;
     }
+    
+}
+@media (max-width: 500px) {
+    .ABOUT .left{
+        width: 50%;
+        background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+        background-size: 5px 5px;    }
     
 }
 .ABOUT img{
@@ -137,10 +171,28 @@ nav .navbar-nav .post:hover{
     }
     
 }
+@media (max-width:500px) {
+    .ABOUT .left .img-end img{
+        margin-left: 30px; 
+        MAX-width: 160px !important; 
+        margin-top: -25px;
+        overflow: hidden;
+    }
+    
+}
 .ABOUT .left .img-last img{
     width: 250px;
     margin-left: 230px; 
     margin-top: -200px;
+}
+
+@media (max-width:500px) {
+    .ABOUT .left .img-last img{
+        min-width: 180px !important;
+        margin-left: 190px; 
+        margin-top: -160px;
+    }
+    
 }
 .ABOUT .right{
     float: right;
@@ -182,6 +234,15 @@ nav .navbar-nav .post:hover{
     background-color: #2B3940;
     overflow: hidden;
 }
+@media (max-width:500px) {
+    .end{
+        margin-top: 60px;
+        background-color: #2B3940;
+        overflow: hidden;
+        height: 1300px;
+    }
+    
+}
 .end .Company{
     float: left;
     margin-top: 50px;
@@ -220,6 +281,19 @@ nav .navbar-nav .post:hover{
     margin-left: 50px;
     font-weight: 700;
 }
+@media (max-width:500px) {
+    .end .Quick-Links{
+        margin-right: 160px;
+        font-weight: 700;
+    }
+    
+}
+@media (max-width:500px) {
+    .end .Quick-Links h5{
+        width: 200px;
+    }
+    
+}
 .end h5{
     color: #fff;
     font-size: 40px;
@@ -228,6 +302,13 @@ nav .navbar-nav .post:hover{
     float: right;
     margin-top: -225px;
     margin-right: 60px;
+}
+@media (max-width:500px) {
+    .end .Contact{
+        margin-top: 50px;
+        margin-right: 150px;
+    }
+    
 }
 .end .Contact p{
     color: #999898;
@@ -253,6 +334,13 @@ nav .navbar-nav .post:hover{
 .end .site{
     margin-top: 300px;
     padding: 30px;
+}
+@media (max-width:500px) {
+    .end .site{
+        padding: 30px;
+        overflow: hidden;
+    }
+    
 }
 .end .site hr{
     color: #999898;

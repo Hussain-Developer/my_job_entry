@@ -1,6 +1,6 @@
 body {
-  margin: 0;
-  font-family: "Heebo", sans-serif;
+  margin: 0px;
+  font-family: "Heebo",sans-serif;
   font-size: 1rem;
   font-weight: 400;
   color: #666565;
@@ -28,7 +28,11 @@ nav #navbarSupportedContent {
     width: 375px;
   }
 }
-
+@media (max-width: 500px) {
+  nav {
+    width: 415px;
+  }
+}
 nav #navbarSupportedContent .nav-link {
   color: #000;
   transition: 0.5s;
@@ -144,7 +148,8 @@ nav .navbar-nav .post:hover {
 
 @media (max-width: 500px) {
   .row .col .card {
-    width: 300px;
+    width: 350px !important;
+    height: 250px !important;
   }
 }
 
@@ -177,18 +182,40 @@ nav .navbar-nav .post:hover {
   font-size: 48px;
   color: #00b074;
 }
+@media (max-width:500px) {
+  .row .col .card a i {
+    font-size: 70px !important;
+    color: #00b074;
+    line-height: 1.9;
 
+  }
+  
+}
 .row .col .card a h5 {
   color: #2b3940;
   font-weight: 700;
   font-size: 16px;
 }
-
+@media (max-width:500px) {
+  .row .col .card a h5 {
+    color: #2b3940;
+    font-weight: 700;
+    font-size: 22px !important;
+    line-height: 1.9;
+  }
+  
+}
 .row .col .card a p {
   color: #00c986;
   font-size: 16px;
 }
-
+@media (max-width:500px) {
+  .row .col .card a p {
+    color: #00c986;
+    font-size: 20px !important;
+  }
+  
+}
 .row .col .card a h5 {
   font-size: 1rem;
   font-family: "Inter", sans-serif;
@@ -505,7 +532,8 @@ nav .navbar-nav .post:hover {
   .our-client {
     margin-top: -100px;
     margin: 5px;
-    width: 300px;
+    width: 400px;
+    overflow: hidden;
   }
 
 }
@@ -587,9 +615,8 @@ nav .navbar-nav .post:hover {
   .end {
     background-color: #2b3940;
     overflow: hidden;
-    width: 450px;
-    text-align: center;
-    margin: 0;
+    width: 412px;
+    height: 1300px;
   }
 
 }
@@ -651,7 +678,7 @@ nav .navbar-nav .post:hover {
   .end .Quick-Links {
     float: left;
     width: 100%;
-    margin-left: -80px;
+    margin-right: 100px !important;
   }
 
 }
@@ -754,7 +781,7 @@ nav .navbar-nav .post:hover {
 @media (max-width:500px) {
   .end .site .right {
     color: #666565;
-    margin-top: 20px;
+    margin-top: 10px;
     float: left;
     margin-left: -30px;
     width: 300px;
